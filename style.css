@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+body {
+    background: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    background: hsl(0, 0%, 12%);
+    padding: 45px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.container img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 500;
+    font-style: bold;
+    margin-bottom: 25px;
+}
+
+.bio {
+    color: white;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.container .links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container .links a {
+    text-decoration: none;
+    color: white;
+    background: hsl(0, 0%, 20%);
+    padding: 15px;
+    border-radius: 7px;
+    font-weight: 500;
+    font-style: bold;
+    transition: background-color 0.3s ease;
+}
+
+.container .links a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+.attribution {
+    color: white;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(75, 94%, 57%);
+}
